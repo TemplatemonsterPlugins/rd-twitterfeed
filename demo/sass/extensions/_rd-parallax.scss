@@ -1,0 +1,55 @@
+/*
+* @subsection   RD Parallax
+*
+* @description  Describes style declarations for RD Parallax extension
+*
+* @author       Evgeniy Gusarov
+* @link         https://ua.linkedin.com/pub/evgeniy-gusarov/8a/a40/54a
+* @version      1.0.2
+*/
+
+.parallax {
+  position: relative;
+  overflow: hidden;
+
+  &, #{headings()}{
+    color: $default;
+  }
+
+  &_image, &_pattern{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-position: center center;
+    will-change: transform;
+  }
+
+  &_image{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  &_pattern{
+    background-repeat: repeat;
+  }
+
+  &_cnt{
+    position: relative;
+  }
+
+  .bg-primary{
+    background: rgba($primary, .8);
+  }
+
+  .bg-primary.skew-left,
+  .bg-primary.skew-right{
+    background-color: transparent;
+
+    &:before{
+      background: rgba($primary, .8);
+    }
+  }
+}

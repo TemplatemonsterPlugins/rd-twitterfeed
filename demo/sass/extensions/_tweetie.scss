@@ -1,0 +1,91 @@
+/*
+* @subsection   Tweetie Plugin
+*
+* @description  Describes style declarations for Tweetie extension
+*
+*/
+
+.twitter {
+  &__item{
+    border-radius: 10px;
+    display: block;
+    opacity: 0;
+    background: $white;
+    color: $secondary-1;
+    border: 1px solid lighten(saturate(adjust_hue($default, 1.7053025658242404e-13), 5.026996834853897%), 17.64705882352942%);
+    &:hover{
+      background: darken($white, 3%);
+    }
+
+    time{
+      color: $default;
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    
+    &__tweet {
+      padding: 20px;
+      a {
+        color: $primary;
+        &:hover {
+          color: darken($primary, 20%);
+        }
+      }
+    }
+
+    &__meta {
+      font-size: 14px;
+
+      *{
+        font-size: 14px;
+        max-width: 120px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        @media (min-width: $screen-md-min) {
+          max-width: 145px;
+        }
+      }
+      a {
+        color: $default;
+        &:hover {
+          color: $secondary-2;
+        }
+      }
+    }
+
+    &__media{
+      width: 100%;
+    }
+
+    &__img-wrap{
+      max-height: 250px;
+      overflow: hidden;
+    }
+
+  }
+  &__box{
+    padding: 20px;
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      height: 1px;
+      left: 20px;
+      right: 20px;
+      background: lighten(saturate(adjust_hue($default, 1.7053025658242404e-13), 5.026996834853897%), 17.64705882352942%);
+    }
+    .box__left{
+      padding-right: 10px;
+    }
+    + .twitter__item__tweet{
+      border-top: 1px solid lighten(saturate(adjust_hue($default, 1.7053025658242404e-13), 5.026996834853897%), 17.64705882352942%);
+      padding-top: 15px;
+      margin-top: 15px;
+    }
+  }
+}
+

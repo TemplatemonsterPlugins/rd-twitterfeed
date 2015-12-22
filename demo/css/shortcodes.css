@@ -1,0 +1,12 @@
+/*
+* @package      Shortcodes
+* @description  This package holds style declarations for
+*               shortcodes page
+*/
+.icon-short-code {
+  font-size: 16px;
+}
+.icon-short-code .box__left {
+  padding-right: 10px;
+  color: #cccccc;
+}

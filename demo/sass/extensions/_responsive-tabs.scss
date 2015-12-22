@@ -1,0 +1,92 @@
+/*
+* @subsection   Easy Responsive Tabs
+*
+* @description  Describes style declarations for Easy Responsive Tabs extension
+*
+* @author       Samson Onna
+* @link         samson3d@gmail.com
+* @version      1.0.0
+*/
+
+$tabs-btn-height: 40px;
+$tabs-btn-indent: 0px;
+
+$tabs-btn-color: #333;
+$tabs-btn-background: #ddd;
+
+$tabs-btn-active-color: #333;
+$tabs-btn-active-background: #fff;
+
+$tab-padding: 0;
+
+.resp-tabs-list {
+  display: block;
+  word-spacing: $tabs-btn-indent - 4px;
+  margin-bottom: -1px;
+  border-bottom: 1px solid lighten(saturate(adjust_hue($default, 0), 2.7946694268339902%), 14.117647058823522%);
+}
+
+.resp-accordion, .resp-tabs-list > li {
+  display: block;
+  word-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s all ease;
+
+  position: relative;
+  padding: 0 20px 25px 30px;
+  text-transform: uppercase;
+  color: $default;
+  border-bottom: 1px solid lighten(saturate(adjust_hue($default, 0), 2.7946694268339902%), 14.117647058823522%) ;
+  +li{
+    margin-top: 15px;
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    background: $primary;
+    height: 2px;
+    transition: .3s all ease;
+  }
+
+  &:hover, &.resp-tab-active{
+    color: $secondary-1;
+  }
+
+  &.resp-tab-active{
+    &:before{
+      left: 0;
+      width: 100%;
+    }
+  }
+}
+
+.resp-tabs-container{
+  padding: 0 15px;
+  margin-top: 30px;
+}
+
+.resp-accordion {
+  display: none;
+  border-radius: 0;
+}
+
+.resp-tab-content {
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .resp-tabs-list > li{
+    display: inline-block;
+    border-bottom: none;
+    +li{
+      margin-top: 0;
+    }
+  }
+
+
+
+}

@@ -1,0 +1,32 @@
+/*
+* @section      Page Layouts
+* @description  This section holds style declarations of all
+*               included page layouts
+*/
+
+.page {
+  overflow: hidden;
+  position: relative;
+  @media (min-width: 1300px) {
+    width: 1300px;
+    margin: 80px auto;
+  }
+}
+
+/*
+* @subsection Boxed Layout
+*/
+
+html.boxed {
+  body {
+    background: $layout-boxed-bg;
+  }
+
+  .page {
+    background: $content-bg;
+    box-shadow: $box-shadow-ambient, $box-shadow-key-light;
+    max-width: $layout-boxed-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
