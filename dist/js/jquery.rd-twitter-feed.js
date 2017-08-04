@@ -1,7 +1,8 @@
+
 /**
 * @module       jQuery RD Twitter Feed
 * @author       Rafael Shayvolodyan (raffa)
-* @version      1.0.2
+* @version      1.0.4
  */
 
 (function() {
@@ -281,7 +282,7 @@
           username: $el.attr('data-twitter-username') ? $el.attr('data-twitter-username') : this.options.username,
           list: $el.attr('data-twitter-listname') ? $el.attr('data-twitter-listname') : this.options.list,
           hashtag: $el.attr('data-twitter-hashtag') ? $el.attr('data-twitter-hashtag') : this.options.hashtag,
-          count: $el.find('[data-twitter-type="tweet"]').length,
+          count: $el.find('[data-twitter-type="tweet"]').length + 1,
           exclude_replies: this.options.hideReplies
         }, $.proxy(function(twt) {
           $el.find('#loading_tweet').fadeOut('fast');

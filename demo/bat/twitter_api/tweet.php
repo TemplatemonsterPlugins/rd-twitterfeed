@@ -1,4 +1,5 @@
 <?php
+
     require_once("twitteroauth/twitteroauth.php"); // Path to twitteroauth library
     require_once('config.php'); // Path to config file
 
@@ -50,7 +51,7 @@
     function getConnectionWithToken($cons_key, $cons_secret, $oauth_token, $oauth_secret)
     {
         $connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_secret);
-      
+
         return $connection;
     }
 

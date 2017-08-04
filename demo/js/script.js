@@ -94,7 +94,7 @@ function isIE() {
 (function ($) {
     var o = $('.twitter');
     if (o.length > 0) {
-        include('../dist/js/jquery.rd-twitter-feed.min.js');
+        include('../dist/js/jquery.rd-twitter-feed.js');
         include('js/isotope.pkgd.min.js');
 
         $(document).ready(function () {
