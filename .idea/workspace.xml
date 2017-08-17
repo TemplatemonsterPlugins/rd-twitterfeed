@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7869e70b-1367-4f19-9b29-bf806b1c7f8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/bat/twitter_api/config.php" afterPath="$PROJECT_DIR$/demo/bat/twitter_api/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/bat/twitter_api/tweet.php" afterPath="$PROJECT_DIR$/demo/bat/twitter_api/tweet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/bat/twitter_api/twitteroauth/twitteroauth.php" afterPath="$PROJECT_DIR$/demo/bat/twitter_api/twitteroauth/twitteroauth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/js/script.js" afterPath="$PROJECT_DIR$/demo/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bat/twitter_api/config.php" afterPath="$PROJECT_DIR$/dist/bat/twitter_api/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bat/twitter_api/tweet.php" afterPath="$PROJECT_DIR$/dist/bat/twitter_api/tweet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bat/twitter_api/twitteroauth/twitteroauth.php" afterPath="$PROJECT_DIR$/dist/bat/twitter_api/twitteroauth/twitteroauth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/jquery.rd-twitter-feed.js" afterPath="$PROJECT_DIR$/dist/js/jquery.rd-twitter-feed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/jquery.rd-twitter-feed.min.js" afterPath="$PROJECT_DIR$/dist/js/jquery.rd-twitter-feed.min.js" />
-    </list>
+    <list default="true" id="7869e70b-1367-4f19-9b29-bf806b1c7f8a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +31,8 @@
       <file leaf-file-name="jquery.rd-twitter-feed.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/js/jquery.rd-twitter-feed.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="374">
+              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -336,12 +326,12 @@
       <workItem from="1489755553036" duration="1155000" />
       <workItem from="1489757316024" duration="1484000" />
       <workItem from="1490005942084" duration="93000" />
-      <workItem from="1501844481359" duration="9501000" />
+      <workItem from="1501844481359" duration="9572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12233000" />
+    <option name="totallyTimeSpent" value="12304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -505,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/jquery.rd-twitter-feed.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="374">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding />
         </state>
       </provider>

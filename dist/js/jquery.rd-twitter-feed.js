@@ -2,7 +2,7 @@
 /**
 * @module       jQuery RD Twitter Feed
 * @author       Rafael Shayvolodyan (raffa)
-* @version      1.0.4
+* @version      1.0.5
  */
 
 (function() {
@@ -338,9 +338,12 @@
         dataArr = $el.data();
         for (dataEl in dataArr) {
           if (dataArr.hasOwnProperty(dataEl)) {
-            attributes = dataArr[dataEl].split(/\s?,\s?/i);
+            attributes = typeof dataArr[dataEl] === 'string' ? dataArr[dataEl] : dataArr[dataEl].split(/\s?,\s?/i);
             for (j = 0, len = attributes.length; j < len; j++) {
               attr = attributes[j];
+              if(attr === 'xId'){
+                continue;
+              }
               if (attr.toLowerCase() === 'text') {
                 el.innerHTML = data[dataEl];
               } else if (dataEl === 'media_url') {
