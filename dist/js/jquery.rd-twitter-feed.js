@@ -337,11 +337,11 @@
         $el = $(el);
         dataArr = $el.data();
         for (dataEl in dataArr) {
-          if (dataArr.hasOwnProperty(dataEl)) {
-            attributes = typeof dataArr[dataEl] === 'string' ? dataArr[dataEl] : dataArr[dataEl].split(/\s?,\s?/i);
+          if ((dataArr[dataEl] || "xImage" !== dataArr[dataEl] && "xId" !== dataArr[dataEl]) && dataArr.hasOwnProperty(dataEl) && "string" === typeof dataArr[dataEl]) {
+            attributes = dataArr[dataEl].split(/\s?,\s?/i);
             for (j = 0, len = attributes.length; j < len; j++) {
               attr = attributes[j];
-              if(attr === 'xId'){
+              if(attr === 'data-x-id' || attr === 'data-x-image'){
                 continue;
               }
               if (attr.toLowerCase() === 'text') {
