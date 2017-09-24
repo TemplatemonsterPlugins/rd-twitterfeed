@@ -1,0 +1,139 @@
+Good afternoon,
+
+Please can you advise how to filter the RD Twitter feed to certain key words such as “Winner” or “Placed” ?
+
+Apologies if you not the person to deal with, if you could point me in the right direction.
+
+
+(Source Code)
+
+  <div data-twitter-username="racinginfo_" data-twitter-date-format="%d %b %Y" data-twitter-date-hours=" hours ago" data-twitter-date-minutes=" minutes ago" class="twitter">
+                                      <div class="range range-sm-center">
+                                        <div class="cell-lg-4"><a data-twitter-type="tweet" href="#" class="rd-twitter shadow-drop-sm">
+                                            <div class="unit unit-sm unit-sm-horizontal twitter-unit">
+                                              <div class="unit-left">
+                                                <div class="rd-twitter-avatar"><img data-avatar="src" src="images/_blank.png" alt=""></div>
+                                              </div>
+                                              <div class="unit-body">
+                                                <div class="rd-twitter-meta">
+                                                  <div data-user_name="text" class="p big text-bold"></div>
+                                                </div>
+                                                <div data-screen_name="text" class="p small text-dark offset-top-4"></div>
+                                              </div>
+                                            </div>
+                                            <div data-tweet="text" class="rd-twitter-tweet"></div>
+                                            <div class="rd-twitter-img-wrap"><img data-media_url="src" src="images/_blank.png" alt="" class="rd-twitter-media"></div>
+                                            <div class="rd-twitter-time-wrap">
+                                              <div data-date="text" data-datetime="datetime" class="time p small text-dark"></div>
+                                            </div></a>
+                                          <div class="offset-top-30"><a data-twitter-type="tweet" href="#" class="rd-twitter shadow-drop-sm">
+                                              <div class="unit unit-sm unit-sm-horizontal twitter-unit">
+                                                <div class="unit-left">
+                                                  <div class="rd-twitter-avatar"><img data-avatar="src" src="images/_blank.png" alt=""></div>
+                                                </div>
+                                                <div class="unit-body">
+                                                  <div class="rd-twitter-meta">
+                                                    <div data-user_name="text" class="p big text-bold"></div>
+                                                  </div>
+                                                  <div data-screen_name="text" class="p small text-dark offset-top-4"></div>
+                                                </div>
+                                              </div>
+                                              <div data-tweet="text" class="rd-twitter-tweet"></div>
+                                              <div class="rd-twitter-img-wrap"><img data-media_url="src" src="images/_blank.png" alt="" class="rd-twitter-media"></div>
+                                              <div class="rd-twitter-time-wrap">
+                                                <div data-date="text" data-datetime="datetime" class="time p small text-dark"></div>
+                                              </div></a></div>
+                                        </div>
+                                              <div class="cell-lg-4"><a data-twitter-type="tweet" href="#" class="rd-twitter rd-twitter-compact shadow-drop-sm">
+                                            <div class="unit unit-sm unit-sm-horizontal twitter-unit">
+                                              <div class="unit-left">
+                                                <div class="rd-twitter-avatar"><img data-avatar="src" src="images/_blank.png" alt=""></div>
+                                              </div>
+                                              <div class="unit-body">
+                                                <div class="rd-twitter-meta">
+                                                  <div data-user_name="text" class="p big text-bold"></div>
+                                                </div>
+                                                <div data-screen_name="text" class="p small text-dark offset-top-4"></div>
+                                              </div>
+                                            </div>
+                                            <div data-tweet="text" class="rd-twitter-tweet"></div>
+                                            <div class="rd-twitter-time-wrap">
+                                              <div data-date="text" data-datetime="datetime" class="time p small text-dark"></div>
+                                            </div></a>
+                                          <div class="offset-top-30"><a data-twitter-type="tweet" href="#" class="rd-twitter shadow-drop-sm">
+                                              <div class="unit unit-sm unit-sm-horizontal twitter-unit">
+                                                <div class="unit-left">
+                                                  <div class="rd-twitter-avatar"><img data-avatar="src" src="images/_blank.png" alt=""></div>
+                                                </div>
+                                                <div class="unit-body">
+                                                  <div class="rd-twitter-meta">
+                                                    <div data-user_name="text" class="p big text-bold"></div>
+                                                  </div>
+                                                  <div data-screen_name="text" class="p small text-dark offset-top-4"></div>
+                                                </div>
+                                              </div>
+                                              <div data-tweet="text" class="rd-twitter-tweet"></div>
+                                              <div class="rd-twitter-img-wrap"><img data-media_url="src" src="images/_blank.png" alt="" class="rd-twitter-media"></div>
+                                              <div class="rd-twitter-time-wrap">
+                                                <div data-date="text" data-datetime="datetime" class="time p small text-dark"></div>
+                                              </div></a></div> 
+                                        </div>
+                                         <div class="cell-lg-4"><a data-twitter-type="tweet" href="#" class="rd-twitter rd-twitter-compact shadow-drop-sm">
+                                            <div class="unit unit-sm unit-sm-horizontal twitter-unit">
+                                              <div class="unit-left">
+                                                <div class="rd-twitter-avatar"><img data-avatar="src" src="images/_blank.png" alt=""></div>
+                                              </div>
+                                              <div class="unit-body">
+                                                <div class="rd-twitter-meta">
+                                                  <div data-user_name="text" class="p big text-bold"></div>
+                                                </div>
+                                                <div data-screen_name="text" class="p small text-dark offset-top-4"></div>
+                                              </div>
+                                            </div>
+                                            <div data-tweet="text" class="rd-twitter-tweet"></div>
+                                            <div class="rd-twitter-time-wrap">
+                                              <div data-date="text" data-datetime="datetime" class="time p small text-dark"></div>
+                                            </div></a>
+                                          <div class="offset-top-30"><a data-twitter-type="tweet" href="#" class="rd-twitter shadow-drop-sm">
+                                              <div class="unit unit-sm unit-sm-horizontal twitter-unit">
+                                                <div class="unit-left">
+                                                  <div class="rd-twitter-avatar"><img data-avatar="src" src="images/_blank.png" alt=""></div>
+                                                </div>
+                                                <div class="unit-body">
+                                                  <div class="rd-twitter-meta">
+                                                    <div data-user_name="text" class="p big text-bold"></div>
+                                                  </div>
+                                                  <div data-screen_name="text" class="p small text-dark offset-top-4"></div>
+                                                </div>
+                                              </div>
+                                              <div data-tweet="text" class="rd-twitter-tweet"></div>
+                                              <div class="rd-twitter-img-wrap"><img data-media_url="src" src="images/_blank.png" alt="" class="rd-twitter-media"></div>
+                                              <div class="rd-twitter-time-wrap">
+                                                <div data-date="text" data-datetime="datetime" class="time p small text-dark"></div>
+                                              </div></a></div>
+
+
+
+(Scipt.js)
+
+
+  if (plugins.twitterfeed.length > 0) {
+    var i;
+    for (i = 0; i < plugins.twitterfeed.length; i++) {
+      var twitterfeedItem = plugins.twitterfeed[i];
+      $(twitterfeedItem).RDTwitter({
+        hideReplies: false,
+        localTemplate: {
+          avatar: "images/features/rd-twitter-post-avatar-48x48.jpg"
+        },
+        callback: function () {
+          $window.trigger("resize");
+        }
+      });
+    }
+  }
+
+
+Kind Regards
+
+James
